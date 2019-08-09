@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black !important; */
+    border: 1px solid black !important;
 }
 
 html, body {
@@ -263,7 +263,48 @@ footer nav a {
 }
 
 /* SECTIONS */
-
-.container .a-section-two{
+.about-page .a-about{
     display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.about-page .a-about div{
+    width:95%;
+}
+.container .a-main-section{
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    justify-content: space-around;
+}
+
+.container .a-main-section div{
+    /* display:flex; */
+    width: 45%;
+    /* justify-content: space-around; */
+    /* flex-flow:row wrap; */
+    
+    
+}
+.container .a-main-section div img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+.about-page .a-worktogether{
+    margin-top:50px;
+}
+
+/* FOOTER */
+
+.about-page footer{
+    margin-top:50px;
+    display
 }
