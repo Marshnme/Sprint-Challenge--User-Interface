@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    height:100%;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid black !important;
+    /* border: 1px solid black !important; */
 }
 
 html, body {
@@ -72,15 +73,10 @@ p {
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
-.container h2{
-    font-size: 1.6rem
-}
-.container p{
-    font-size: 1.2rem;
 
-}
 /* HEADER */
 
 .container .i-header{
@@ -101,7 +97,7 @@ p {
 .container .i-nav a{
     text-decoration: none;
     color:black;
-    font-size: 1.2rem;
+    
 }
 
 .container .i-header-img{
@@ -222,7 +218,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
 }
 
@@ -251,7 +247,8 @@ footer nav a {
 .container .a-nav a{
     text-decoration: none;
     color:black;
-    font-size: 1.2rem;
+    
+  
 }
 
 .container .a-header-img{
@@ -267,29 +264,48 @@ footer nav a {
     display:flex;
     width:100%;
     justify-content: space-around;
+    border-bottom:1px dotted black;
+    padding-bottom:20px;
+    margin-bottom:30px;
 }
 .about-page .a-about div{
     width:95%;
 }
-.container .a-main-section{
+.about-page .a-main-section{
     display:flex;
     flex-flow:row wrap;
     width:100%;
     justify-content: space-around;
 }
 
-.container .a-main-section div{
-    /* display:flex; */
+.about-page .a-main-section div{
     width: 45%;
-    /* justify-content: space-around; */
-    /* flex-flow:row wrap; */
-    
-    
-}
-.container .a-main-section div img{
-    width:100%;
+    border-bottom:1px dotted black;
 }
 
+.about-page .a-main-section div img{
+    width:100%;
+}
+.about-page .a-main-section h2{
+    margin-top:15px;
+}
+.about-page .a-main-section a{
+    border:2px solid black;
+    padding:10px 30px;
+    border-radius:10px;
+    text-decoration: none;
+    color:black;
+    display:flex;
+    margin-top:20px;
+    margin-bottom:30px;
+    width:150px;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+}
+.a-main-section div{
+    margin-bottom:50px;
+}
 
 
 
@@ -299,12 +315,21 @@ footer nav a {
 
 
 .about-page .a-worktogether{
-    margin-top:50px;
+    /* margin-top:10px; */
+    display:flex;
+    justify-content: space-around;
 }
-
+.about-page .a-worktogether div{
+    width:95%;
+}
 /* FOOTER */
 
 .about-page footer{
     margin-top:50px;
-    display
+    
+    
+}
+
+.about-page footer a{
+    color:lightgrey;
 }
